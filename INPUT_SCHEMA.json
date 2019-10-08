@@ -4,6 +4,12 @@
     "type": "object",
     "schemaVersion": 1,
     "properties": {
+        "apiUrlProvider": {
+            "title": "API Url Provider",
+            "type": "string",
+            "description": "API to retrieve list of urls",
+            "editor": "textfield"
+        },
         "search": {
             "title": "Search",
             "type": "string",
